@@ -396,10 +396,12 @@ footer{
     .choose_mainContainer{
         padding:20px;
     }
+    
     .choose-us{
         width:90%;
         gap: 0
     }
+
     .choose-us .choose_left img{
         display: none;
     }
