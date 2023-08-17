@@ -28,6 +28,9 @@
     font-weight: 600;
     font-family: var(--fontFamily) ;
 }
+.header_hambuger_icon{
+    display: none;
+}
 
 .hero_section{
 
@@ -334,4 +337,85 @@ footer{
     flex-direction: column;
     gap:40px;
     width:15%;
+}
+
+@media screen and (max-width: 768px){
+    #default-button .custom_button{
+        width: 100%;
+    }
+    .header_section_links{
+        display: none;
+    }
+    .header_container img{
+       width: 70%
+    }
+    .header_hambuger_icon{
+        display:block
+    }
+
+    .hero_container .content{
+        height: 100%;
+        padding:5%;
+    }
+    .hero_container .content .create_padding{
+        width:100%;
+        padding:0;
+        margin-top: 24%;
+        align-items: center;
+    }
+    .hero_container .content h1{
+        font-size: 40px;
+    }
+    .hero_container .content .text2{
+        font-size: 16px;
+        width:100%;
+    }
+    .workshop_section{
+        height:100%;
+    }
+    .workshop_section .workshop_image{
+        display: none;
+    }
+    .workshop_section_right{
+        width:90%;
+    }
+    .workshop_header p{
+        font-size: 25px;
+    }
+    .workshop_list_container{
+        grid-template-columns: 1fr ;
+    }
+    .service-card{
+        grid-template-columns: 1fr;
+    }
+    .our-service .container{
+        width:90%;
+        margin-top:20px;
+        padding: 20px 0;
+    }
+    .choose_mainContainer{
+        padding:20px;
+    }
+    .choose-us{
+        width:90%;
+        gap: 0
+    }
+    .choose-us .choose_left img{
+        display: none;
+    }
+    .choose-us .choose_right h3{
+       font-size: 16px;
+    }
+    .footer{
+    flex-direction: column;
+    gap: 30px;
+    }
+    .footer-inner{
+        width:50%;
+        margin: 10% 0;
+    }
+    .footerLink ul{
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
 }
